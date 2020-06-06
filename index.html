@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+    <!-- booststrap
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--//booststrap end-->
+    <!-- font-awesome icons -->
+    <!-- <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- uppper bar -->
+
+<nav class="navbar navbar-light bg-light" >
+    <div class="container">
+     <div class="row">
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+            +(000)123 4565 32
+        </a>
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          info@gmail.com 
+        </a>
+     </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+
+<div class="header">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3">
+            <h1><a class="navbar-brand toy" href="index.html">Toys-Shop</a></h1>
+        </div>
+        <div class="col-lg-5 col-md-6">
+            <nav class="navbar">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </nav>
+        </div>
+        <div class="col-lg-4 col-md-3">
+            <nav class="navbar-brand icon">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+            </nav>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" id="toy-adds" href="#" >Toy adds joy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link " href="index.html" >Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link about" href="about.html" >About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html" >Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
+            Products
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Kids aatoys</a>
+            <a class="dropdown-item" href="#">Dolls</a>
+            <a class="dropdown-item" href="#">boy shop</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html" >Shop now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" >Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  
+  <!-- SLIDER -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/b1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="info"> Pick the Best Toy for <br> kids</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellendus itaque quisquam quis vero.<br>Quas quo deleniti neque labore nostrum asperiores dolorum voluptatibus</p>
+          <a class="read" href="about.html">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/b2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="info">Best toys and dolls <br> for kids</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quo deleniti neque labore nostrum,<br> aliquid placeat, minus consequatur libero, architecto at ut.</p>
+          <a class="read" href="about.html">Read More</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- best Products -->
+   
+<div class="container py-lg-5 py-md-5 py-sm-4 py-4">
+  <h3 id="best">Best products</h3>
+  <div class="row ">
+    <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
+      <img src="images/a1.jpg" alt="toy image">
+      <div class="caption">
+        <h4>Baby Toys</h4>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
+      <img src="images/a2.jpg" alt="toy image">
+      <div class="caption">
+        <h4>lite-brite</h4>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
+      <img src="images/a3.jpg" alt="toy image">
+      <div class="caption">
+        <h4>key toys</h4>
+      </div>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
+      <img src="images/a4.jpg" alt="toy image">
+      <div class="caption">
+        <h4>play Toys</h4>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
+      <img src="images/a5.jpg" alt="toy image">
+      <div class="caption">
+        <h4>gift Toys</h4>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 text-center banner-agile-flowers">
+      <img src="images/a6.jpg" alt="toy image">
+      <div class="caption">
+        <h4>soft toys</h4>
+      </div>
+    </div>
+    <div class="toys-grids-upper">
+      <div class="about-toys-off">
+         <h2 >Get Up to <span><em style="color: #ea1d5d;">70% Off</em> </span>On Selected Toys</h2>
+      </div>
+   </div>
+  </div>
+</div>
+
+<!-- slide section -->
+<div class="Container-fluid section">
+  <div class="container">
+    <h3 id="arrival">New Arrival</h3>
+<marquee>
+  <div class="row">
+    <div class="col">
+    <img src="images/a1.jpg" alt="">
+   <div class="caption"> 
+    <h3>soft toy</h3>
+   </div>
+   <a class="read" href="about.html">shop now</a>
+   </div>
+   <div class="col" style="padding-left: 50px;">
+    <img src="images/a2.jpg" alt="">
+   <div class="caption"> 
+    <h3>baby toy</h3>
+   </div>
+   <a class="read" href="about.html">shop now</a>
+   </div>
+   <div class="col" style="padding-left: 50px;">
+    <img src="images/a3.jpg" alt="">
+   <div class="caption"> 
+    <h3>lite-brite</h3>
+   </div>
+   <a class="read" href="about.html">shop now</a>
+   </div>
+   <div class="col" style="padding-left: 50px;">
+    <img src="images/a4.jpg" alt="">
+   <div class="caption"> 
+    <h3>gift toy</h3>
+   </div>
+   <a class="read" href="about.html">shop now</a>
+   </div>
+
+  </div>
+ </marquee>
+  </div>
+</div>
+
+<!-- latest toys -->
+
+<div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+  <h3 class="latest">Latest Toys</h3>
+  <div class="toyimg">
+    <!-- <img src="images/cc1.jpg" class="toyimg" alt="latest toy" style="height: 564px; width: auto; margin-bottom: 20px;"> -->
+  </div>
+  <p style="letter-spacing: 1px;">
+    velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere velit sagittis vehicula. Duis posuere
+  </p>
+  <a href="#" id="shop">Shop now</a>
+</div>
+
+<!-- products -->
+<div class="container py-lg-5 py-md-5 py-sm-4 py-3" >
+  <div class="row">
+    <div class="col-md-6 dear" style="height: 729px;">
+      <img src="images/cc2.jpg" alt="" style="height: 729px; width: auto;">
+      <p style="letter-spacing: 1px; padding-top: 10px;">
+        velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere velit sagittis vehicula. Duis posuere
+      </p>
+      <a href="#" id="shop">Shop now</a>
+    </div>
+    <div class="col-md-6 dear" >
+      <img src="images/tt1.jpg" alt="" style="height: 266px; width: auto;">
+      <p style="letter-spacing: 1px; padding-top: 10px;">
+        velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere velit sagittis vehicula. Duis posuere
+      </p>
+      <a href="#" id="shop">Shop now</a>
+      <div class="dear" >
+        <img src="images/tt2.jpg" alt="" style="height: 266px; width: auto;">
+        <p style="letter-spacing: 1px; padding-top: 10px;">
+          velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere velit sagittis vehicula. Duis posuere
+        </p>
+        <a href="#" id="shop">Shop now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Premium toys section -->
+
+    <section class=" Container-fluid premium py-lg-4 py-md-3 py-sm-3 py-3" style="background-color: #26bb48; width: 100%;"> 
+      <div class="container">
+        <div>
+          <h3 style="letter-spacing: 1px; text-align: center; color: white;
+          font-size: 32px;
+          text-transform: capitalize;
+          font-weight: 600; 
+          letter-spacing: 2px; 
+          margin: 0px;
+          font-family: 'Sunflower', sans-serif; 
+          padding: 10px 0px 10px 0px;
+          text-shadow:  1px 1px 7px #888888; ">Premium Toys</h3>
+        </div>
+        <div class="row" style="padding: 5px;">
+          <div class="col-lg-6">
+            <img src="images/pp1.png" alt="toy-image" style="height: 602px; width: auto;">
+          </div>
+          <div class="col-lg-6" >
+            <div style="border: 1px solid #fff; letter-spacing: 1px; padding: 20px;">
+              <p style="color: black;">velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere</p>
+              <a href="#" id="shop">Shop now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding: 5px;">
+          <div class="col-lg-6" >
+            <div style="border: 1px solid #fff; letter-spacing: 1px; padding: 20px;">
+              <p style="color: black;">velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt velit sagittis vehicula. Duis posuere</p>
+              <a href="#" id="shop">Shop now</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/pp1.png" alt="toy-image" style="height: 602px; width: auto;">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ABOUT SECTION -->
+  <div class="container">
+    <div>
+      <h3 style="letter-spacing: 1px; text-align: center; color: #000;
+      font-size: 32px;
+      text-transform: capitalize;
+      font-weight: 600; 
+      letter-spacing: 2px; 
+      margin: 0px;
+      font-family: 'Sunflower', sans-serif; 
+      padding: 20px 0px 20px 0px;
+      text-shadow:  1px 1px 7px #888888; ">About Toys</h3>
+    </div>
+    <p style="letter-spacing: 1px; padding: 10px 0px 10px 0px;">
+
+In this exercise, the idea is to write a paragraph that would be a random passage from a story. An effective paragraph is one that has unity (it isn’t a hodgepodge of things), focus (everything in the paragraph stacks up to the whatever-it-is the paragraph is about), and coherence (the content follows smoothly). For this exercise, the paragraph should be quick to read--say, not be more than 100 words long.<br><br><br>
+
+A paragraph needn’t be several sentences long, but might be only a sentence or two, or a single line of dialogue.
+Lines of weeds criss-crossed the cracked parking lot of the Seashell Motor Courts. The flaking paint on the buildings had chalked to a pastel pink on walls covered with graffiti. Many of the windows had been smashed out. Where the sign had been, atop rusting steel posts, only the metal outline of a seashell remained.<br>
+
+It might have action but no dialogue:<br><br><br>
+
+It was Ms. Fitzhugh. She was walking fast. A strange expression crossed the faces of the students as they glanced toward the door and saw the principal go straight into the boys’ restroom. The footsteps stopped. There was a deep, throaty sound difficult to describe. Then came an eruption of shrill screaming and a rapid sound of heels. Moments later, Ms. Fitzhugh emerged, her eyes wild. Screaming, she skidded in the hall and headed toward the office.<br> 
+   </p>
+  </div>  
+
+  <!-- contact us -->
+<div class=" container-fluid ">
+  <div class="row">
+    <div class="col-lg-6 col-md-12">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=numaish%20karachi%20pakistan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com">whatismyip-address.com</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div>
+      <!-- <iframe src="https://www.google.com/maps/search/numaish+karachi/@24.9092196,66.9747606,12z" frameborder="0"></iframe> -->
+    </div>
+    <div class="col-lg-6 col-md-12" style="background-color: #ffcb2d;">
+      <div class="address" style="justify-content: center; text-align: center; padding: 5px 0px 5px 0px; margin: 20px 0px 20px 0px;">
+        <i class="fa fa-building-o" aria-hidden="true" style="color: #ea1d5d ;"></i><br>
+        <span> STREET 41, Numaish<br> Karachi, pakistan</span>
+      </div>
+      <div class="phone"  style="justify-content: center; text-align: center; padding: 5px 0px 5px 0px; margin: 20px 0px 20px 0px;;">
+        <i class="fa fa-volume-control-phone" aria-hidden="true"></i><br>
+        +(000)123 4565 32<br>+(000)123 4565 32
+      </div>
+      <div class="phone"  style="justify-content: center; text-align: center; padding: 5px 0px 5px 0px; margin: 20px 0px 20px 0px;">
+        <i class="fa fa-envelope" aria-hidden="true"></i><br>
+        info@example1.com<br>
+        info@example2.com
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GET IN TOUCH SECTION -->
+
+<div class="container-fluid" style="background-color: #26bb48;">
+  <div class="container"> 
+    <div>
+      <h3 style="letter-spacing: 1px; text-align: center; color: #fff;
+      font-size: 32px;
+      text-transform: capitalize;
+      font-weight: 600; 
+      letter-spacing: 2px; 
+      margin: 0px;
+      font-family: 'Sunflower', sans-serif; 
+      padding: 20px 0px 20px 0px;
+      text-shadow:  1px 1px 7px #888888; ">GET IN TOUCH</h3>
+    </div>
+    <div style="text-align: center; padding: 20px 0px 10px 0px;">
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <i class="fa fa-user-o" aria-hidden="true"></i>
+        <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+    </div>
+    <div>
+      <p style="color: #000; letter-spacing: 1px; font-family: 'Open Sans', sans-serif ">In this exercise, the idea is to write a paragraph that would be a random passage from a story. An effective is one that has unity <br>the content follows smoothly.</p>
+    </div>
+    <div>
+      <input type="email" class="form-control email-sub-agile" placeholder="Email" style="    width: 100%;
+      background: #fff;
+      border: 1px solid #000;
+      padding: .8em .7em;
+      border-radius: 0px;
+      outline: none !important;
+      font-size: 14px;">
+    </div>
+    <div>
+      <a href="#" id="shop" style="border-radius: 5px; text-align: center; justify-content: center;">Subscribe</a>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+
+<div class="container-fluid" style="background-color: #000; height: 50px; width: auto;">
+  <p style="text-align: center; padding: 5px 0px 5px 0px; color: white; letter-spacing: 2px;">© 2020 Toys-Shop. All Rights Reserved | Design by <span style="color: #ea1d5d;">QN</span></p>
+</div>
+ 
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
